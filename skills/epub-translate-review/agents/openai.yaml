@@ -1,0 +1,4 @@
+interface:
+  display_name: "EPUB 翻译与审校"
+  short_description: "Luna max 初译、Sol high 逐条回源审校，保留原书结构生成 EPUB"
+  default_prompt: "使用 $epub-translate-review，按 GPT-6.1-Sol（high）主审、GPT-5.6-Luna（max）子代理初译的默认配方，核验配置后翻译我指定范围的 EPUB，并逐条回源审校后交付。"
